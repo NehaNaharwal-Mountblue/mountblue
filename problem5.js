@@ -1,3 +1,4 @@
+const inventory = require('./cars');
 let oldCars =[];
 console.log(); 
 for (i = 0; i < inventory.length; i++){
@@ -5,4 +6,6 @@ for (i = 0; i < inventory.length; i++){
         oldCars.push(inventory[i].car_year)
     }
 }
+module.export = oldCars
+
 console.log(oldCars.length);
