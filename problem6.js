@@ -8,6 +8,6 @@ for (let i = 0; i < inventory.length; i++){
         BMWAndAudi.push(inventory[i])
      }
 }
-module.export = BMWAndAudi
+
 
 console.log (JSON.stringify(BMWAndAudi));

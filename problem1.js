@@ -10,7 +10,5 @@ function getCarById(inventory, id){
     
 }
 
-module.export = getCarById
-
-console.log(getCarById(inventory, 33));
+module.exports = getCarById
 

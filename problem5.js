@@ -6,6 +6,6 @@ for (let i = 0; i < inventory.length; i++){
         oldCars.push(inventory[i].car_year)
     }
 }
-module.export = oldCars
+
 
 console.log(oldCars.length);
