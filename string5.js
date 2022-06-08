@@ -1,6 +1,9 @@
 const string = require('./strings');
 
-function convert(arr){
+function convertToString(arr){
     return arr.toString(" ").replace(/,/g," ");
 }
-console.log(convert(["the", "quick", "brown", "fox"]));
+
+module.export = convertToString
+
+console.log(convertToString(["the", "quick", "brown", "fox"]));
