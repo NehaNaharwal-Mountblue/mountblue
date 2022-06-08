@@ -1,5 +1,4 @@
 const inventory = require('./cars');
-const inventory = require('./problem4')
 let oldCars =[];
 console.log(); 
 for (let i = 0; i < inventory.length; i++){

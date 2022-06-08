@@ -1,5 +1,6 @@
 const string = require('./strings');
 
+const person = {first_name: "JoHN", middle_name: "doe", last_name: "SMith"};
 
 function toTitleCase(person) {
     return person.toLowerCase().split(' ').map(function (name) {
