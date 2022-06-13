@@ -42,6 +42,7 @@
 
 
 
+
 let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year":2009},
 {"id":2,"car_make":"Mazda","car_model":"Miata MX-5","car_year":2001},
 {"id":3,"car_make":"Land Rover","car_model":"Defender Ice Edition","car_year":2010},
@@ -114,3 +115,4 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 // A buyer is interested in seeing only BMW and Audi cars within the inventory.  Execute a function and return an array that only contains BMW and Audi cars.  Once you have the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
 
 
+module.exports = inventory;
